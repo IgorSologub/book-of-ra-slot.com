@@ -65,9 +65,13 @@ public class Constant {
                 "Datenschutzerklärung",
                 "Book Of Ra Deluxe Kostenlos",
                 "Book Of Dead Kostenlos Spielen",
-                "10 Euro Bonus Ohne Einzahlung Casino"
+                "10 Euro Bonus Ohne Einzahlung Casino",
+                "Book Of Ra Fixed",
+                "Book Of Ra Online Echtgeld Spielen",
+                "Über Uns",
+                "Datenschutzerklärung"
         );
-        public static final int NUMBER_OF_GOOD_FOOTER_BUTTONS = 11;
+        public static final int NUMBER_OF_GOOD_FOOTER_BUTTONS = 5;
     }
 
     public static class Reg {
@@ -99,7 +103,10 @@ public class Constant {
                 "Online Hookups",
                 "Mr.Bet",
                 "Populäre Spielautomaten Und Ihre Eigenschaften",
-                "Book Of Ra Online Spielen und Book of Ra Echtgeld gewinnen"
+                "Book Of Ra Online Spielen und Book of Ra Echtgeld gewinnen",
+                "Gibt es wirklich Boni im Casino?",
+                "Verde Casino",
+                "Just a moment..."
         );
         public static final int NUMBER_OF_BESUCHEN_BUTTONS_MAIN_PAGE = 1;
         public static final int NUMBER_OF_BESUCHEN_BUTTONS_CASINO_PAGE = 1;
@@ -128,7 +135,10 @@ public class Constant {
                 "Winner Сasino Bewertung",
                 "Spin Samurai Casino Auf Unserer Seite",
                 "Joo Casino Auf Unserer Seite",
-                "Mr.Bet Сasino"
+                "Mr.Bet Сasino",
+                "Gibt es wirklich Boni im Casino?",
+                "Just a moment...",
+                "Verde Casino"
         );
         public static final List<String> AUTHORS_TITLES = Arrays.asList(
                 "Samantha",
