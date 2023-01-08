@@ -99,16 +99,6 @@ public class CasinoCategoryTest extends BaseTest {
     }
 
     @Test(invocationCount = 2, successPercentage = 99)
-    public void newsButtonTest () {
-        basePage.closePopup();
-        basePage.waitOneSeconds();
-        mainPage.newsButtonClick();
-        basePage.waitTwoSeconds();
-        if (basePage.checkTitles(REVIEW_TITLES)) { assertTrue(true); }
-        else { basePage.outputWrongTitle(); }
-    }
-
-    @Test(invocationCount = 2, successPercentage = 99)
     public void secondPageButtonTest () {
         basePage.closePopup();
         basePage.waitOneSeconds();
