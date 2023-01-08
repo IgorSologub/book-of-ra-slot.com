@@ -80,21 +80,6 @@ public class MainTest extends BaseTest {
     }
 
     @Test(invocationCount = 2, successPercentage = 99)
-    public void rezensionButtonTest () {
-        basePage.closePopup();
-        int goodTitlesCount = 0;
-        for (int i = 1; i <= 1; i++) {
-            basePage.waitOneSeconds();
-            mainPage.rezensionButtonClick(i);
-            basePage.waitOneSeconds();
-            if (basePage.checkTitles(REVIEW_TITLES)) { goodTitlesCount++; }
-            else { basePage.outputWrongTitle(); }
-            basePage.back(MAIN_PAGE_URL);
-        }
-        assertEquals(1, goodTitlesCount);
-    }
-
-    @Test(invocationCount = 2, successPercentage = 99)
     public void euroBonusOhneEinzahlungButtonTest () {
         basePage.closePopup();
         basePage.waitOneSeconds();

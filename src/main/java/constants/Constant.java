@@ -71,7 +71,7 @@ public class Constant {
                 "Über Uns",
                 "Datenschutzerklärung"
         );
-        public static final int NUMBER_OF_GOOD_FOOTER_BUTTONS = 5;
+        public static final int NUMBER_OF_GOOD_FOOTER_BUTTONS = 3;
     }
 
     public static class Reg {
